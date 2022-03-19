@@ -1,0 +1,146 @@
+header {
+    filter: drop-shadow(5px 5px 6px #0c0c0c);
+    background-color: #202020;
+    float:left;
+    position: sticky;
+    z-index: 2;
+    top: 40px;
+    left: 30px;
+    overflow-x: hidden;
+    padding: 10px 15px;
+    height: fit-content;
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.education {
+    clear: left;
+    filter: drop-shadow(5px 5px 6px #0c0c0c);
+    background-color: #202020;
+    float: left;
+    position: sticky;
+    z-index: 1;
+    top: 260px;
+    left: 30px;
+    overflow-x: hidden;
+    padding: 10px 15px;
+    height: fit-content;
+    width: 270px;
+    font-size: 16px;
+    text-align: center;
+}
+
+a {
+    color: #009714;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #2cabff;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+h2 {
+    color: #ffa26d;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #009714;
+    margin: 0;
+    padding-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 50em;
+}
+table {
+    width: 100%;
+    height: 25em;
+}
+
+table img {
+    width: 500px;
+    height: auto;
+}
+
+table th {
+    text-align: center;
+}
+
+table td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    filter: drop-shadow(5px 5px 6px #0c0c0c);
+    border: 2px solid #d6d6d6;
+}
+
+#aboutImgs {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indent {
+    padding-left: 40px;
+}
+
+.left {
+    float: left;
+}   
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+.hide {
+    border-bottom: 2px solid #d6d6d6;
+}
+
+body {
+    background-color: #363636;
+    color: #d6d6d6;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    width: 75%;
+    margin: 40px auto 20px 350px;
+    padding: 0 40px 20px;
+    background-color: #202020;
+    filter: drop-shadow(5px 5px 6px #0c0c0c);
+}
+
+footer {
+    background-color: #202020;
+    width: 75%;
+    margin: 0 auto 80px 350px;
+    padding: 20px 40px;
+    filter: drop-shadow(5px 5px 6px #0c0c0c);
+    text-align: center;
+}
